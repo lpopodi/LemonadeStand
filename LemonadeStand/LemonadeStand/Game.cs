@@ -42,7 +42,7 @@ namespace LemonadeStand
                 Console.WriteLine("Below is your Daily Inventory Report");
                 inventory.inventoryReport();
                 RestockOption(store);
-                RecipeForLemonade();
+           //     RecipeForLemonade();
                 day.setSellingPriceForDay();
                 
             }
